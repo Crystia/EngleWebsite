@@ -1,0 +1,140 @@
+/*///////////////////////////////////////////////////////////////////////
+
+Begin CSS Reset - Grid Starts at Line 59
+
+
+//////////////////////////////////////////////////////////////////////*/
+
+/*///////////////////////////////////////////////////////////////////////
+
+End CSS Reset Begin Grid
+
+
+//////////////////////////////////////////////////////////////////////*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1170px;
+  display: block;
+  margin: auto;
+  padding: 0px;
+  
+}
+
+/*You do not need col-color, this is just to show you where your grid is */
+
+.col-color {
+  background-color: #606060;
+  width: 100%;
+  display: block;
+  height: 150px;
+  margin: auto;
+}
+
+/* You do not need row, but can use it to add space above and belos your columns */
+
+.row {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+
+.col-1 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 70px;
+  float: left;
+  display: block;
+}
+
+.col-2 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 166px;
+  float: left;
+  display: block;
+}
+
+.col-3 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 262px;
+  float: left;
+  display: block;
+}
+
+.col-4 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 358px;
+  float: left;
+  display: block;
+}
+
+.col-5 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 454px;
+  float: left;
+  display: block;
+}
+
+.col-6 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 550px;
+  float: left;
+  display: block;
+}
+
+.col-7 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 646px;
+  float: left;
+  display: block;
+}
+
+.col-8 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 742px;
+  float: left;
+  display: block;
+}
+
+.col-9 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 838px;
+  float: left;
+  display: block;
+}
+
+.col-10 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 934px;
+  float: left;
+  display: block;
+}
+
+.col-11 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 1030px;
+  float: left;
+  display: block;
+}
+
+.col-12 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 1126px;
+  float: left;
+  display: block;
+}

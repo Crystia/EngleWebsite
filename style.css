@@ -1,0 +1,236 @@
+/*//////////////////////////////////////
+
+Apply all custom styles here
+
+//////////////////////////////////////*/
+
+/* Fonts */
+
+@font-face
+{
+font-family: sans-serif;
+src: url('Economica-Regular.otf'),
+url('https://www.fontsquirrel.com/license/Aquiline-two');
+}
+
+@font-face
+{
+font-family: sans-serif;
+src: url('AquilineTwo.otf'),
+url('https://www.fontsquirrel.com/license/economica');
+}
+
+/* Mobile First */
+
+/* Navigation */
+
+
+#navigation{
+	background-position: center;
+	height: 80px;
+	width: 100%;
+
+}
+
+#navigation-elements {
+	margin-top: 30px;
+	margin-left: 250px;
+	margin-right: 50px;
+
+
+}
+
+#navigation-elements li {
+	display: inline;
+	font-size: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: #808080;
+	font-family: 'Economica';
+}
+
+#navigation-elements a {
+	color: #808080;
+	text-decoration: none;
+}
+
+#navigation-elements a:hover{
+	color: #F299AE;
+}
+
+/* Social Media */
+
+
+.social-media li {
+	display:inline;
+	font-size: 20px;
+	margin-left: 10px;
+	float: left;
+}
+
+.social-media {
+	float:left;
+	margin-left: -30px;
+	margin-top: 10px;
+}
+
+/* Body */
+
+body {
+	background-image: url("background.png");
+	background-repeat: repeat-y;
+
+}
+
+
+h1{
+	font-family: AquilineTwo;
+	font-size: 80px;
+	margin-top: 0px;
+	text-align: center;
+	color: #525252;
+
+}
+
+h2 {
+	font-family: 'Economica';
+	font-size: 35px;
+	text-align: center;
+	margin-top: -50px;
+	color: #525252;
+}
+
+/* Portfolio Images */
+
+.portfolio {
+	margin-top: 60px;
+	margin-bottom: 50px;
+	margin-left: 250px;
+}
+
+.portfolio img{
+	border-radius: 35px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+}
+
+
+
+
+/* About Me */ 
+
+.about-me {
+	margin-top: 30px;
+
+}
+
+.about-me img{
+	margin-left: 350px;
+}
+
+.about-me p {
+	width: 500px;
+	margin-left: 250px;
+	text-align: center;
+	margin-top: -40px;
+	font-family: 'Economica';
+
+}
+
+.contact {
+	margin-top: 10px;
+
+}
+
+.contact p {
+	float: right;
+	margin-right: 600px;
+	margin-bottom: -100px;
+	font-size: 12px;
+	font-family: 'Economica';
+}
+
+/* Footer */
+
+#footer {
+	background-position: bottom;
+	background-color: rgba(0,0,0,0.25);
+	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 250px;
+	
+}
+
+#footer p{
+	font-size: 12px;
+	padding-bottom: 10px;
+	padding-top: 30px;
+	padding-right: 10px;
+	float: right;
+
+}
+
+
+
+/* Media Query */
+
+@media only screen and (min-width: 1366px) {
+	#navigation-elements {
+		margin-top: 30px;
+		margin-left: 425px;
+		margin-right: 50px;
+	}
+
+	.portfolio {
+		margin-top: 60px;
+		margin-bottom: 50px;
+		margin-left: 160px;
+	}
+
+	.about-me img{
+		margin-left: 525px;
+	}
+
+	.about-me p {
+		width: 500px;
+		margin-left: 450px;
+		text-align: center;
+		margin-top: -40px;
+		font-family: 'Economica';
+
+	}
+
+
+}
+
+@media only screen and (min-width: 1400px) {
+	#navigation-elements {
+		margin-top: 30px;
+		margin-left: 570px;
+		margin-right: 50px;
+	}
+
+	.portfolio {
+		margin-top: 60px;
+		margin-bottom: 50px;
+		margin-left: 300px;
+	}
+
+	.about-me img{
+		margin-left: 650px;
+	}
+
+	.about-me p {
+		width: 500px;
+		margin-left: 550px;
+		text-align: center;
+		margin-top: -40px;
+		font-family: 'Economica';
+
+	}
+
+
+}
+
